@@ -4,13 +4,17 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "build": "tailwindcss -i ./src/input.css -o ./src/public/output.css",
-    "watch": "tailwindcss -i ./src/input.css -o ./src/public/output.css --watch"
+    "build": "tailwindcss -i ./input.css -o ./public/output.css",
+    "watch": "tailwindcss -i ./input.css -o ./public/output.css --watch"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "devDependencies": {
     "tailwindcss": "^3.4.1"
+  },
+  "dependencies": {
+    "body-parser": "^1.20.2",
+    "express": "^4.18.2"
   }
 }
